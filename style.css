@@ -1,44 +1,39 @@
 body {
-        background-color: black;
-        color: lightgrey;
-        font-family: 'Ubuntu', sans-serif;
-        border-left: 3px solid magenta;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.container {
+.main {
         padding: 20px;
         max-width: 800px;
         margin: 0 auto;
 }
 
 footer{
-          background-color: #7575a3;
-          color: white;
-          text-align: center;
-          padding: 10px 0;
-          position: bottom;
-          bottom: 1;
-          width: 100%;
+    background-color: #7575a3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    bottom: 1;
+    width: 100%;
 }
+
 hr {
-  border: 1px solid #eee;
+    border: 1px solid #FFFFFF;
 }
 
 a:link {
-  color: lightblue;
+    color: blue;
 }
 
 /* visited link */
 a:visited {
-  color: lightgreen;
+    color: green;
 }
 
 /* mouse over link */
 a:hover {
-  color: magenta;
-}
-
-/* selected link */
-a:active {
-  color: blue;
+    color: yellow;
 }
